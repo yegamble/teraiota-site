@@ -1,3 +1,581 @@
-<html>
-Test
-</html>
+<!DOCTYPE html>
+<html lang="en-US"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tera | The Next Generation of Privacy. Powered by IOTA.</title><script type="d3a4c8b62b3499da352fb31b-text/javascript">window._wca = window._wca || [];</script><meta name="description" content="TAKE BACK YOUR PRIVACY. Tera is a platform for encrypted messaging. Tera protects your private communications from censorship and theft."><meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Tera | The Next Generation of Privacy. Powered by IOTA."><meta property="og:description" content="TAKE BACK YOUR PRIVACY. Tera is a platform for encrypted messaging. Tera protects your private communications from censorship and theft."><meta property="og:url" content="https://teraiota.com/"><meta property="og:site_name" content="Tera"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:description" content="TAKE BACK YOUR PRIVACY. Tera is a platform for encrypted messaging. Tera protects your private communications from censorship and theft."><meta name="twitter:title" content="Tera | The Next Generation of Privacy. Powered by IOTA."><meta name="twitter:image" content="https://teraiota.com/wp-content/uploads/2019/10/terawordslogo.png"><script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://teraiota.com/#organization","name":"Tera","url":"https://teraiota.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://teraiota.com/#logo","url":"https://teraiota.com/wp-content/uploads/2019/10/tera_circle_dust.png","width":2000,"height":2000,"caption":"Tera"},"image":{"@id":"https://teraiota.com/#logo"}},{"@type":"WebSite","@id":"https://teraiota.com/#website","url":"https://teraiota.com/","name":"Tera","publisher":{"@id":"https://teraiota.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://teraiota.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://teraiota.com/#primaryimage","url":"https://teraiota.com/wp-content/uploads/2019/10/terawordslogo.png"},{"@type":"WebPage","@id":"https://teraiota.com/#webpage","url":"https://teraiota.com/","inLanguage":"en-US","name":"Tera | The Next Generation of Privacy. Powered by IOTA.","isPartOf":{"@id":"https://teraiota.com/#website"},"about":{"@id":"https://teraiota.com/#organization"},"primaryImageOfPage":{"@id":"https://teraiota.com/#primaryimage"},"datePublished":"2019-04-28T09:24:34+00:00","dateModified":"2019-10-11T08:38:38+00:00","description":"TAKE BACK YOUR PRIVACY. Tera is a platform for encrypted messaging. Tera protects your private communications from censorship and theft."}]}</script><link rel="dns-prefetch" href="//s0.wp.com"><link rel="dns-prefetch" href="//stats.wp.com"><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-150072012-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-150072012-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script><link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.2.5/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="wc-block-style-css" href="https://c0.wp.com/p/woocommerce/3.7.1/packages/woocommerce-blocks/build/style.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-editor-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%2C900&subset" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-5-free-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/font-awesome/css/all.css" type="text/css" media="all"><link rel="stylesheet" id="contact-form-7-css" href="https://teraiota.com/wp-content/plugins/contact-form-7/includes/css/styles.css" type="text/css" media="all"><link rel="stylesheet" id="cookie-notice-front-css" href="https://teraiota.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all"><link rel="stylesheet" id="rs-plugin-settings-css" href="https://teraiota.com/wp-content/plugins/slider-revolution/public/assets/css/rs6.css" type="text/css" media="all"><style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style><style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style><link rel="stylesheet" id="tinvwl-css" href="https://teraiota.com/wp-content/plugins/ti-woocommerce-wishlist/assets/css/public.min.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-fonts-css" href="https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600%2C700%2C900&subset" type="text/css" media="all"><link rel="stylesheet" id="bootstrap-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="themify-icon-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/themify-icon/themify-icons.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-animate-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/animation/animate.css" type="text/css" media="all"><link rel="stylesheet" id="magnific-popup-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/magnify-pop/magnific-popup.css" type="text/css" media="all"><link rel="stylesheet" id="eleganticons-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/elagent/style.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-wpd-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/wpd-style.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-main-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/style.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-elements-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/elements.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-footer-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/footer.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-gutenberg-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/saasland-gutenberg.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-root-css" href="https://teraiota.com/wp-content/themes/saasland/style.css" type="text/css" media="all"><style id="saasland-root-inline-css" type="text/css">
+
+            header.header_area.navbar_fixed .navbar .navbar-nav .menu-item a.nav-link.active,
+            .header_area .menu > .nav-item .nav-link:hover,
+            .header_area .menu > .nav-item.active>.nav-link,
+            .header_area .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link,
+            .header_area.navbar_fixed .menu_six .menu > .nav-item:hover > .nav-link,
+            .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link span.arrow_carrot-right,
+            .header_area .menu > .nav-item.active .nav-link+.dropdown-menu .nav-item .nav-link:hover, 
+            .header_area .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+            .header_area .menu > .nav-item.active .nav-link+.dropdown-menu .active .nav-link {
+                color: #5e2ced !important;
+            }
+        
+            section.blog_area_two,
+            .elementor-template-full-width .elementor.elementor-3550,
+            .sec_pad.page_wrapper {
+                padding-top: px;
+            } 
+            section.blog_area_two,
+            .elementor-template-full-width .elementor.elementor-3550,
+            .sec_pad.page_wrapper {
+                padding-bottom: px;
+            } 
+                .new_footer_top .footer_bg {
+                    background: url(https://droitthemes.com/wp/saasland/wp-content/themes/saasland/assets/img/seo/footer_bg.png ) no-repeat scroll center 0;
+                }
+                .new_footer_top .footer_bg .footer_bg_one {
+                    background: url(https://droitthemes.com/wp/saasland/wp-content/themes/saasland/assets/img/seo/car.png ) no-repeat center center;
+                }
+                .new_footer_top .footer_bg .footer_bg_two {
+                    background: url(https://droitthemes.com/wp/saasland/wp-content/themes/saasland/assets/img/seo/bike.png ) no-repeat center center;
+                }
+</style><link rel="stylesheet" id="saasland-responsive-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/responsive.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-responsive2-css" href="https://teraiota.com/wp-content/themes/saasland/assets/css/responsive-2.css" type="text/css" media="all"><link rel="stylesheet" id="nice-select-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/nice-select/nice-select.css" type="text/css" media="all"><link rel="stylesheet" id="mCustomScrollbar-css" href="https://teraiota.com/wp-content/themes/saasland/assets/vendors/scroll/jquery.mCustomScrollbar.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-icons-css" href="https://teraiota.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-frontend-css" href="https://teraiota.com/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all"><link rel="stylesheet" id="simple-line-icon-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/simple-line-icon/simple-line-icons.css" type="text/css" media="all"><link rel="stylesheet" id="slick-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/slick/slick.css" type="text/css" media="all"><link rel="stylesheet" id="slick-theme-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/slick/slick-theme.css" type="text/css" media="all"><link rel="stylesheet" id="themify-icons-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/themify-icon/themify-icons.css" type="text/css" media="all"><link rel="stylesheet" id="saasland-flaticons-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/flaticon/flaticon.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-post-3550-css" href="https://teraiota.com/wp-content/uploads/elementor/css/post-3550.css" type="text/css" media="all"><link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.2.5" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.8.1/css/jetpack.css" type="text/css" media="all"><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://c0.wp.com/c/5.2.5/wp-includes/js/jquery/jquery.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://c0.wp.com/c/5.2.5/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/PLACEHOLDER.wpsho","hash_tracking":"false"};
+/* ]]> */
+</script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/teraiota.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/cookie-notice/js/front.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/slider-revolution/public/assets/js/revolution.tools.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/slider-revolution/public/assets/js/rs6.min.js"></script><script async type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://stats.wp.com/s-202003.js"></script><link rel="dns-prefetch" href="//c0.wp.com"><style type="text/css">img#wpstats{display:none}</style><noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="shortcut icon" href="https://teraiota.com/wp-content/uploads/2019/10/favicon.png"><script type="d3a4c8b62b3499da352fb31b-text/javascript">function setREVStartSize(a){try{var b,c=document.getElementById(a.c).parentNode.offsetWidth;if(c=0===c||isNaN(c)?window.innerWidth:c,a.tabw=void 0===a.tabw?0:parseInt(a.tabw),a.thumbw=void 0===a.thumbw?0:parseInt(a.thumbw),a.tabh=void 0===a.tabh?0:parseInt(a.tabh),a.thumbh=void 0===a.thumbh?0:parseInt(a.thumbh),a.tabhide=void 0===a.tabhide?0:parseInt(a.tabhide),a.thumbhide=void 0===a.thumbhide?0:parseInt(a.thumbhide),a.mh=void 0===a.mh||""==a.mh?0:a.mh,"fullscreen"===a.layout||"fullscreen"===a.l)b=Math.max(a.mh,window.innerHeight);else{for(var d in a.gw=Array.isArray(a.gw)?a.gw:[a.gw],a.rl)(void 0===a.gw[d]||0===a.gw[d])&&(a.gw[d]=a.gw[d-1]);for(var d in a.gh=void 0===a.el||""===a.el||Array.isArray(a.el)&&0==a.el.length?a.gh:a.el,a.gh=Array.isArray(a.gh)?a.gh:[a.gh],a.rl)(void 0===a.gh[d]||0===a.gh[d])&&(a.gh[d]=a.gh[d-1]);var e,f=Array(a.rl.length),g=0;for(var d in a.tabw=a.tabhide>=c?0:a.tabw,a.thumbw=a.thumbhide>=c?0:a.thumbw,a.tabh=a.tabhide>=c?0:a.tabh,a.thumbh=a.thumbhide>=c?0:a.thumbh,a.rl)f[d]=a.rl[d]<window.innerWidth?0:a.rl[d];for(var d in e=f[0],f)e>f[d]&&0<f[d]&&(e=f[d],g=d);var h=c>a.gw[g]+a.tabw+a.thumbw?1:(c-(a.tabw+a.thumbw))/a.gw[g];b=a.gh[g]*h+(a.tabh+a.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(a.c).height=b,window.rs_init_css.innerHTML+="#"+a.c+"_wrapper { height: "+b+"px }"}catch(a){console.log("Failure at Presize of Slider:"+a)}};</script><style type="text/css" title="dynamic-css" class="options-output">header.header_area{background:transparent;}.header_area .navbar .btn_get{color:#5e2ced;}.header_area .navbar .btn_get{border-color:#ffffff;}.header_area .navbar .btn_get{background:#ffffff;}.header_area .navbar .btn_get:hover{color:#ffffff;}.header_area .navbar .btn_get:hover{border-color:#5e2ced;}.header_area .navbar .btn_get:hover{background:#5e2ced;}.navbar_fixed .header_area .navbar .btn_get:hover{border-color:#5e2ced;}.navbar_fixed.header_area .navbar .btn_get{border-color:#5e2ced;}.navbar_fixed.header_area .navbar .btn_get{color:#5e2ced;}.header_area.navbar_fixed .navbar .btn_get.btn-meta:hover{color:#ffffff;}.breadcrumb_area, .breadcrumb_area_two{padding-right:0;padding-left:0;}.header_area .navbar .navbar-nav .menu-item a, .navbar .search_cart .search a.nav-link i{color:#ffffff;}.menu_toggle .hamburger span, .menu_toggle .hamburger-cross span, .navbar .search_cart .search a.nav-link:before{background:#ffffff;}.header_area .navbar .navbar-nav .menu-item a:hover, .header_area .menu > .nav-item.active .nav-link, 
+                            .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+                            .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link,
+                            .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link span.arrow_carrot-right,
+                            .menu_six .menu > .nav-item:hover .nav-link, .menu_six .menu > .nav-item.active .nav-link{color:#ffffff;}header_area .navbar .navbar-nav .menu-item{margin-top:0;margin-right:40px;margin-bottom:0;margin-left:0;}header.navbar_fixed .menu > .nav-item > .nav-link, header.header_area.navbar_fixed .navbar .navbar-nav .menu-item a, 
+                            .header_area.navbar_fixed .menu_six .menu > .nav-item > .nav-link, header.navbar_fixed .navbar .search_cart .search a.nav-link i{color:#051441;}header.navbar_fixed .menu_toggle .hamburger span, .menu_toggle .hamburger-cross span, header.navbar_fixed .navbar .search_cart .search a.nav-link:before{background:#051441;}
+                    .header_area .navbar_fixed .navbar .navbar-nav .menu-item a:hover, 
+                    .header_area .navbar_fixed .menu > .nav-item.active .nav-link,
+                    .header_area.navbar_fixed .menu_six .menu > .nav-item:hover > .nav-link,
+                    .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link span.arrow_carrot-right,
+                    .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link, 
+                    .menu_six .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link,
+                    .header_area.navbar_fixed .menu_six .menu > .nav-item.active > .nav-link
+                {color:#5e2ced;}
+                    .menu > .nav-item:hover .nav-link,
+                    .blog_related_post .blog_list_item .blog_content a:hover, .blog .menu > .nav-item > .nav-link:hover,
+                    .blog_list_item_two .blog_content .post-info-bottom .post-info-comments:hover,
+                    .blog-sidebar .widget.widget_nav_menu ul li a:hover, .blog-sidebar .widget.widget_meta ul li a:hover, .blog-sidebar .widget.widget_pages ul  a:hover, 
+                    .blog-sidebar .widget.widget_archive ul li:hover, .blog-sidebar .widget.widget_archive ul li a:hover, .blog-sidebar .widget.widget_categories ul li a:hover,
+                    .menu > .nav-item.submenu .dropdown-menu .nav-item:hover > .nav-link, .menu > .nav-item.submenu .dropdown-menu .nav-item:focus > .nav-link,
+                    .comment_inner .comment_box .post_comment .post_author_two .comment_reply:hover,
+                    .blog_single_info .blog_list_item_two .blog_content .post-info-bottom .social_icon ul li a:hover,
+                    .blog_list_item_two .blog_content .post-info-bottom .post-info-comments:hover,
+                    .blog_list_item_two .blog_content .post-info-bottom .post-info-comments i,
+                    .blog_single_info .blog_list_item_two blockquote::before, blockquote::before,
+                    header.header_area.navbar_fixed .navbar .navbar-nav .menu-item a.nav-link.active,
+                    .blog_list_item_two .blog_content .post-info-bottom .post-info-comments i,
+                    .blog_list_item_two .post_date, .qutoe_post .blog_content i,
+                    .menu > .nav-item.submenu .dropdown-menu .nav-item.active > .nav-link,
+                    .widget_recent_comments #recentcomments .recentcomments:before,
+                    .new_footer_top .f_widget.about-widget ul li a:hover,
+                    header.header_area.navbar_fixed .navbar .navbar-nav .menu-item a:hover,
+                    .widget_recent_comments #recentcomments .recentcomments a:hover,
+                    .widget.recent_post_widget_two .post_item .media-body h3:hover,
+                    .comments_widget ul li .comments_items .media-body p:hover,
+                    .widget.recent_post_widget_two .post_item .media-body h3:hover,
+                    .f_widget .widget-wrap p a:hover,
+                    .pagination .nav-links .page-numbers:hover,
+                    .widget.widget_recent_entries li a:hover,
+                    .widget_rss ul li a.rsswidget:hover,
+                    .form-submit input#submit:hover
+                    {color:#5e2ced;}
+                    .widget_recent_comments #recentcomments .recentcomments:hover:before,
+                    .blog_list_item .blog_content .single_post_tags.post-tags a:hover,
+                    .blog_content .learn_btn_two:hover:before,
+                    .pagination .nav-links .page-numbers.current,
+                    .tagcloud a:hover, p.sticky-label,
+                    .form-submit input#submit
+                    {background-color:#5e2ced;}
+                    .blog-sidebar .widget.widget_nav_menu ul li a:hover, .blog-sidebar .widget.widget_meta ul li a:hover, .blog-sidebar .widget.widget_pages ul li a:hover, 
+                    .blog-sidebar .widget.widget_archive ul li:hover, .blog-sidebar .widget.widget_archive ul li a:hover, .blog-sidebar .widget.widget_categories ul li a:hover,
+                    .widget.search_widget_two .search-form .form-control:focus,
+                    .blog_comment_box .get_quote_form .form-group .form-control:focus,
+                    .blog_list_item.format-audio .audio_player, .qutoe_post .blog_content,
+                    .widget_recent_comments #recentcomments .recentcomments:before,
+                    .blog_single_info .blog_list_item_two blockquote, blockquote,
+                    .pagination .nav-links .page-numbers:hover,
+                    .form-submit input#submit
+                    {border-color:#5e2ced;}.blog .header_area .navbar .navbar-nav .menu-item a{color:#051441;}</style></head><body class="home page-template page-template-elementor_header_footer page page-id-3550 wp-embed-responsive theme-saasland cookies-not-set woocommerce-no-js tinvwl-theme-style not_logged_in elementor-default elementor-template-full-width elementor-page elementor-page-3550" data-spy="scroll" data-target=".navbar" data-offset="70">
+<div class="body_wrapper">
+<div data-elementor-type="wp-post" data-elementor-id="3550" class="elementor elementor-3550" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-element elementor-element-72f353cf elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="72f353cf" data-element_type="section" id="home"><div class="elementor-container elementor-column-gap-no">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-19820c5c elementor-column elementor-col-100 elementor-top-column" data-id="19820c5c" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-3d9e0fad elementor-invisible elementor-widget elementor-widget-saasland_appart_hero" data-id="3d9e0fad" data-element_type="widget" data-settings='{"_animation":"none"}' data-widget_type="saasland_appart_hero.default">
+<div class="elementor-widget-container">
+<style>
+                    .hero-two.hero_04:after {
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        position: absolute;
+                        background: url(https://teraiota.com/wp-content/uploads/2019/10/igor-starkov-XGPR42cRMPs-unsplash.jpg) no-repeat scroll center 100%;
+                        background-size: cover;
+                        z-index: -1;
+                        opacity: 0.6;
+                    }
+                </style><section class="hero-two hero_04 hero-banner-six"><div class="container">
+<div class="row">
+ <div class="col-sm-12">
+<div class="col-header-text hero-content">
+<p> <img src="https://teraiota.com/wp-content/uploads/2019/10/terawordslogo.png" width="300"></p><p>
+Take Back Your Privacy:
+Use the next generation of social media and earn $.</p> 
+<style>
+                                                .banner_btn1:hover {
+                                                    color: #ffffff !important;
+                                                    background-color: rgba(255,255,255,0) !important;
+                                                    border-color: #ffffff !important;
+                                                }
+                                            </style><a class="banner_btn1 banner_btn" href="#beta" style="background: #ffffff; color: #414141; border-color: #ffffff;">
+Request Beta access </a>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="elementor-element elementor-element-0ef5c16 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0ef5c16" data-element_type="section" id="overview"><div class="elementor-container elementor-column-gap-no">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-8ffad6e elementor-column elementor-col-100 elementor-top-column" data-id="8ffad6e" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-da92a2b elementor-widget elementor-widget-saasland_appart_c2a" data-id="da92a2b" data-element_type="widget" data-widget_type="saasland_appart_c2a.default">
+<div class="elementor-widget-container">
+<section class="overview-area"><div class="container-fluid">
+<div class="row">
+<div class="col-md-6 col-12 overview-details-left">
+<img src="https://teraiota.com/wp-content/uploads/2019/10/flame-1-e1570625225116.png" class="img-responsive" alt="No one will ever know your secrets."></div>
+<div class="col-md-6 col-12 overview-details-right">
+<div class="overview-details">
+<div class="title-four">
+<h2> No one will ever know your secrets. </h2>
+</div>
+<p>TERA uses <a href="https://medium.com/coinmonks/iota-mam-eloquently-explained-d7505863b413">Masked Authenticated Messaging (MAM)</a> to protect your private conversations from hackers, governments, and more.</p>
+<p>Messages are encrypted within your device and can only be read by the recipient. Compromised messages cannot be cracked, even by quantum computers!</p>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+<div class="elementor-element elementor-element-5607380 elementor-widget elementor-widget-saasland_appart_screen_feature" data-id="5607380" data-element_type="widget" id="features" data-widget_type="saasland_appart_screen_feature.default">
+<div class="elementor-widget-container">
+<section class="best_screen_features_area features_area_pad"><svg xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" id="down_bg_copy_2" data-name="down / bg copy 2" class="cls-1" d="M444.936,252.606c-148.312,0-305.161-29.63-444.936-80.214V0H1920V12S808.194,234.074,444.936,252.606Z"></path></svg><div class="container">
+<div class="title-four h_color text-center mb_0">
+<h2 class="wow fadeInUp"> Convenience Without Compromise </h2> <p class="p_color wow fadeInUp" data-wow-delay="200ms">Everyday users can be confident that their voice will not be silenced by an algorithm, corporation, or government.</p> </div>
+<div class="row ">
+<div class="col-lg-12">
+<div class="row b_features_info">
+<div class="col-sm-6">
+<div class="b_features_item wow fadeInUp">
+<div class="b_features_icon">
+<div class="icon"><i class="fa fa-eye"></i><span class="hover_color"></span></div> </div>
+<a href="#"><h3>Censorship proof</h3></a>
+<p>Messages are decentralised and therefore cannot be blocked or scanned. No one has control over what you say or do.</p>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="b_features_item wow fadeInUp">
+<div class="b_features_icon">
+<div class="icon"><i class="ti-pencil-alt"></i><span class="hover_color"></span></div> </div>
+<a href="#"><h3>Customizable Profiles</h3></a>
+<p>Find your friends! Add each other by scanning their QR code. Share images and videos with your friends.</p>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="b_features_item wow fadeInUp">
+<div class="b_features_icon">
+<div class="icon"><i class="ti-key"></i><span class="hover_color"></span></div> </div>
+<a href="#"><h3>Extreme Security</h3></a>
+<p>All messages are secured by quantum-proof Winternitz One-Time Signatures. Your key changes with every with every new conversation.</p>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="b_features_item wow fadeInUp">
+ <div class="b_features_icon">
+<div class="icon"><i class="ti-money"></i><span class="hover_color"></span></div> </div>
+<a href="#"><h3>Built-in Cryptocurrency Wallet</h3></a>
+<p>Keep your spare crypto on hand. Send money to your friends and family anywhere in the world.
+We currently support IOTA and plan to add other tokens.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="elementor-element elementor-element-a960571 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a960571" data-element_type="section" id="faq"><div class="elementor-container elementor-column-gap-no">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-f58204a elementor-column elementor-col-100 elementor-top-column" data-id="f58204a" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-bb05c1c animated-slow elementor-invisible elementor-widget elementor-widget-saasland_appart_screen_feature" data-id="bb05c1c" data-element_type="widget" data-settings='{"_animation":"fadeInUp"}' data-widget_type="saasland_appart_screen_feature.default">
+<div class="elementor-widget-container">
+<section class="faq_solution_area features_area_pad"><div class="container">
+<div class="title-four h_color text-center">
+<h2 class="wow fadeInUp"> Sell Your Own Data </h2> <p class="p_color wow fadeInUp" data-wow-delay="200ms">Don't let Facebook own your privacy. <br>Opt-in to sell your online information to marketers.</p> </div>
+<div class="row ">
+<div class="col-md-6 d_flex ">
+<div id="accordion-bb05c1c" class="faq_accordian_two">
+<div class="card wow fadeInUp active">
+<div class="card-header" id="heading-d9f6792">
+<h5 class="mb-0">
+<button class="btn btn-link" data-toggle="collapse" data-target="#collapse-d9f6792" aria-expanded="true" aria-controls="collapse-d9f6792">
+<i class="ti-location-arrow"></i>You Are In Control </button>
+</h5>
+</div>
+<div id="collapse-d9f6792" class="collapse show" aria-labelledby="heading-d9f6792" data-parent="#accordion-bb05c1c">
+<div class="card-body">
+<p>Broadcast your profile to marketers and let them buy your information transparently. You can restrict certain information and deny transactions at any given time.</p>
+ </div>
+</div>
+</div>
+<div class="card wow fadeInUp ">
+<div class="card-header" id="heading-c7a5b6a">
+<h5 class="mb-0">
+<button class="btn btn-link" data-toggle="collapse" data-target="#collapse-c7a5b6a" aria-expanded="true" aria-controls="collapse-c7a5b6a">
+<i class="ti-money"></i>Recieve Money for your Data </button>
+</h5>
+</div>
+<div id="collapse-c7a5b6a" class="collapse " aria-labelledby="heading-c7a5b6a" data-parent="#accordion-bb05c1c">
+<div class="card-body">
+<p>You control the cost of your data. Marketers pay automatically when purchasing your data.</p>
+</div>
+</div>
+</div>
+<div class="card wow fadeInUp ">
+<div class="card-header" id="heading-6f3d45a">
+<h5 class="mb-0">
+<button class="btn btn-link" data-toggle="collapse" data-target="#collapse-6f3d45a" aria-expanded="true" aria-controls="collapse-6f3d45a">
+<i class="ti-stats-up"></i>HODL cryptocurrency </button>
+</h5>
+</div>
+<div id="collapse-6f3d45a" class="collapse " aria-labelledby="heading-6f3d45a" data-parent="#accordion-bb05c1c">
+<div class="card-body">
+<p>Using Tera's built-in crypto wallet. You can HODL or spend the crypto you earn at any time. You own your own keys.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="faq_image_mockup wow fadeInUp" data-wow-delay="200ms">
+<img src="https://teraiota.com/wp-content/uploads/2019/10/App_preview-1.png" alt="featured"></div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="elementor-element elementor-element-efd86e7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="efd86e7" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-265556f elementor-column elementor-col-100 elementor-top-column" data-id="265556f" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-3172d5f elementor-invisible elementor-widget elementor-widget-image" data-id="3172d5f" data-element_type="widget" data-settings='{"_animation":"fadeIn"}' data-widget_type="image.default">
+<div class="elementor-widget-container">
+<div class="elementor-image">
+<a href="https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1.png" data-elementor-open-lightbox="no">
+<img width="2880" height="1616" src="https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1.png" class="attachment-full size-full" alt="" srcset="https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1.png 2880w,https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1-300x168.png 300w,https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1-768x431.png 768w,https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1-1024x575.png 1024w,https://teraiota.com/wp-content/uploads/2019/10/ecosystem-1-600x337.png 600w" sizes="(max-width: 2880px) 100vw, 2880px"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="elementor-element elementor-element-f9598b2 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f9598b2" data-element_type="section"><div class="elementor-container elementor-column-gap-no">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-1fa5fac elementor-column elementor-col-100 elementor-top-column" data-id="1fa5fac" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-38be023 animated-fast elementor-invisible elementor-widget elementor-widget-saasland_subsciribe" data-id="38be023" data-element_type="widget" id="beta" data-settings='{"_animation":"fadeIn"}' data-widget_type="saasland_subsciribe.default">
+<div class="elementor-widget-container">
+<section class="s_subscribe_area"><div class="s_shap">
+<svg class="right_shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><lineargradient id="PSgrad_5"><stop offset="0%" stop-color="rgb(103,84,226)" stop-opacity="0.95"></stop><stop offset="100%" stop-color="rgb(25,204,230)" stop-opacity="0.95"></stop></lineargradient></defs><path fill="url(#PSgrad_5)" d="M543.941,156.289 L227.889,41.364 C184.251,25.497 136.000,47.975 120.118,91.571 L5.084,407.325 C-10.799,450.921 11.701,499.127 55.339,514.995 L371.391,629.920 C415.029,645.788 463.280,623.309 479.162,579.713 L594.196,263.959 C610.079,220.362 587.579,172.157 543.941,156.289 Z"></path><path fill="url(#PSgrad_5)" d="M625.661,120.004 L309.609,5.079 C265.971,-10.790 217.720,11.689 201.838,55.286 L86.804,371.039 C70.921,414.636 93.421,462.842 137.059,478.709 L453.111,593.634 C496.749,609.502 545.000,587.024 560.882,543.427 L675.916,227.673 C691.799,184.077 669.299,135.872 625.661,120.004 Z"></path></svg><svg class="bottom_shape" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><lineargradient id="PSgrad_6" x1="76.604%" x2="0%" y1="0%" y2="64.279%"><stop offset="0%" stop-color="rgb(103,84,226)" stop-opacity="0.95"></stop><stop offset="100%" stop-color="rgb(25,204,230)" stop-opacity="0.95"></stop></lineargradient></defs><path fill="url(#PSgrad_6)" d="M543.941,156.289 L227.889,41.365 C184.251,25.496 136.000,47.975 120.118,91.572 L5.084,407.325 C-10.799,450.922 11.701,499.127 55.339,514.995 L371.391,629.920 C415.029,645.788 463.280,623.310 479.162,579.713 L594.196,263.959 C610.079,220.362 587.579,172.157 543.941,156.289 Z"></path><path fill="url(#PSgrad_6)" d="M625.661,120.004 L309.609,5.078 C265.971,-10.789 217.720,11.689 201.838,55.286 L86.804,371.040 C70.921,414.636 93.421,462.842 137.059,478.709 L453.111,593.634 C496.749,609.502 545.000,587.023 560.882,543.427 L675.916,227.673 C691.799,184.077 669.299,135.871 625.661,120.004 Z"></path></svg></div>
+<div class="container">
+<div class="sec_title text-center mb_50 wow fadeInUp" data-wow-delay="0.4s">
+<h2 class="f_p f_size_30 l_height50 f_600 t_color saas_subscribe_color">
+Request Beta Access </h2>
+<p class="f_300 f_size_18 l_height34 subtitle_color">Availability and feature restrictions may apply.</p>
+</div>
+<form class="mailchimp wow fadeInUp" data-wow-delay="0.6s" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+<div class="input-group s_subcribes">
+<input type="text" name="EMAIL" class="form-control memail" placeholder="Type your email..."><button class="btn btn-submit" type="submit"><i class="ti-arrow-right"></i></button>
+</div>
+<p class="mchimp-errmessage" style="display: none;"></p>
+<p class="mchimp-sucmessage" style="display: none;"></p>
+</form>
+</div>
+</section><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+            ;(function($){
+                "use strict";
+                $(document).ready(function () {
+                    // MAILCHIMP
+                    if ($(".mailchimp").length > 0) {
+                        $(".mailchimp").ajaxChimp({
+                            callback: mailchimpCallback,
+                            url: "https://teraiota.us20.list-manage.com/subscribe/post?u=d6a641c6ae8c90257ee8ea6bf&id=3afd0ee5cc"
+                        });
+                    }
+                    if ($(".mailchimp_two").length > 0) {
+                        $(".mailchimp_two").ajaxChimp({
+                            callback: mailchimpCallback,
+                            url: "https://teraiota.us20.list-manage.com/subscribe/post?u=d6a641c6ae8c90257ee8ea6bf&id=3afd0ee5cc" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+                        });
+                    }
+                    $(".memail").on("focus", function () {
+                        $(".mchimp-errmessage").fadeOut();
+                        $(".mchimp-sucmessage").fadeOut();
+                    });
+                    $(".memail").on("keydown", function () {
+                        $(".mchimp-errmessage").fadeOut();
+                        $(".mchimp-sucmessage").fadeOut();
+                    });
+                    $(".memail").on("click", function () {
+                        $(".memail").val("");
+                    });
+
+                    function mailchimpCallback(resp) {
+                        if (resp.result === "success") {
+                            $(".mchimp-errmessage").html(resp.msg).fadeIn(1000);
+                            $(".mchimp-sucmessage").fadeOut(500);
+                        } else if (resp.result === "error") {
+                            $(".mchimp-errmessage").html(resp.msg).fadeIn(1000);
+                        }
+                    }
+                });
+            })(jQuery)
+        </script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+<div data-elementor-type="wp-post" data-elementor-id="3189" class="elementor elementor-3189" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-element elementor-element-7adf0727 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section" data-id="7adf0727" data-element_type="section" data-settings='{"background_background":"gradient"}'><div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-element elementor-element-67a119ba elementor-column elementor-col-25 elementor-top-column" data-id="67a119ba" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-599891cf elementor-widget elementor-widget-heading" data-id="599891cf" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-medium">Contact Us</h2> </div>
+</div>
+<div class="elementor-element elementor-element-67cc80ad elementor-widget elementor-widget-text-editor" data-id="67cc80ad" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><a href="/cdn-cgi/l/email-protection#ddb5b8b1b1b29da9b8afbcb4b2a9bcf3beb2b0"><span class="__cf_email__" data-cfemail="c2aaa7aeaead82b6a7b0a3abadb6a3eca1adaf">[email protected]</span></a></p><p><a href="/cdn-cgi/l/email-protection#6f1f1d0a1c1c2f1b0a1d0e06001b0e410c0002"><span class="__cf_email__" data-cfemail="88f8faedfbfbc8fcedfae9e1e7fce9a6ebe7e5">[email protected]</span></a></p><p>investors: <a href="/cdn-cgi/l/email-protection#c6afb486b2a3b4a7afa9b2a7e8a5a9ab"><span class="__cf_email__" data-cfemail="a4cdd6e4d0c1d6c5cdcbd0c58ac7cbc9">[email protected]</span></a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1cd9df11 elementor-column elementor-col-25 elementor-top-column" data-id="1cd9df11" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-45714db elementor-widget elementor-widget-heading" data-id="45714db" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">About Us</h2> </div>
+</div>
+<div class="elementor-element elementor-element-47484d6d elementor-widget elementor-widget-text-editor" data-id="47484d6d" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #677294;"><a style="color: #677294;" href="#">Company</a></span></p><p><span style="color: #677294;">Blog</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1ad7128a elementor-column elementor-col-25 elementor-top-column" data-id="1ad7128a" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-314cae53 elementor-widget elementor-widget-heading" data-id="314cae53" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Help?</h2> </div>
+</div>
+<div class="elementor-element elementor-element-10d3a248 elementor-widget elementor-widget-text-editor" data-id="10d3a248" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #677294;"><a style="color: #677294;" href="/faq">FAQ</a></span></p><p><a href="/privacy-policy"><span style="color: #677294;">Privacy Policy</span></a></p><p><a href="/terms"><span style="color: #677294;">Term & conditions</span></a></p><p><a href="/support">Support</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2a824f7b elementor-column elementor-col-25 elementor-top-column" data-id="2a824f7b" data-element_type="column">
+<div class="elementor-column-wrap  elementor-element-populated">
+ <div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-12feec79 elementor-widget elementor-widget-heading" data-id="12feec79" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h2 class="elementor-heading-title elementor-size-default">Follow Us</h2> </div>
+</div>
+<div class="elementor-element elementor-element-e5b0236 elementor-shape-rounded elementor-widget elementor-widget-social-icons" data-id="e5b0236" data-element_type="widget" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<div class="elementor-social-icons-wrapper">
+<a href="https://facebook.com/teraIOTA" class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-pulse-grow elementor-repeater-item-810dd2d" target="_blank">
+<span class="elementor-screen-only">Facebook</span>
+<i class="fab fa-facebook"></i> </a>
+<a href="https://twitter.com/teraiota" class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-pulse-grow elementor-repeater-item-721bba5" target="_blank">
+<span class="elementor-screen-only">Twitter</span>
+<i class="fab fa-twitter"></i> </a>
+<a href="https://instagram/teraiota" class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-pulse-grow elementor-repeater-item-531238b" target="_blank">
+<span class="elementor-screen-only">Instagram</span>
+<i class="fab fa-instagram"></i> </a>
+<a href="https://blockchair.com/bitcoin/address/1FbxARRVUv5r6DDEMVPavG9USe81C5tdKn" class="elementor-icon elementor-social-icon elementor-social-icon-bitcoin elementor-animation-pulse-grow elementor-repeater-item-dd44599" target="_blank">
+<span class="elementor-screen-only">Bitcoin</span>
+<i class="fab fa-bitcoin"></i> </a>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1e113f4 elementor-widget elementor-widget-text-editor" data-id="1e113f4" data-element_type="widget" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p>Copyright © 2019 TeraIOTA Limited All Rights Reserved</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section></div>
+</div>
+</div>
+</div> 
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+			var wc_product_block_data = JSON.parse( decodeURIComponent( '%7B%22min_columns%22%3A1%2C%22max_columns%22%3A6%2C%22default_columns%22%3A3%2C%22min_rows%22%3A1%2C%22max_rows%22%3A6%2C%22default_rows%22%3A1%2C%22thumbnail_size%22%3A300%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fteraiota.com%5C%2Fwp-content%5C%2Fuploads%5C%2Fwoocommerce-placeholder-300x300.png%22%2C%22min_height%22%3A500%2C%22default_height%22%3A500%2C%22isLargeCatalog%22%3Afalse%2C%22limitTags%22%3Afalse%2C%22hasTags%22%3Afalse%2C%22productCategories%22%3A%5B%7B%22term_id%22%3A15%2C%22name%22%3A%22Uncategorized%22%2C%22slug%22%3A%22uncategorized%22%2C%22term_group%22%3A0%2C%22term_taxonomy_id%22%3A15%2C%22taxonomy%22%3A%22product_cat%22%2C%22description%22%3A%22%22%2C%22parent%22%3A0%2C%22count%22%3A0%2C%22filter%22%3A%22raw%22%2C%22link%22%3A%22https%3A%5C%2F%5C%2Fteraiota.com%5C%2Findex.php%5C%2Fproduct-category%5C%2Funcategorized%5C%2F%22%7D%5D%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fteraiota.com%5C%2F%22%7D' ) );
+		</script><link rel="stylesheet" id="appart-style-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/css/appart-style.css" type="text/css" media="all"><link rel="stylesheet" id="appart-responsive-css" href="https://teraiota.com/wp-content/plugins/saasland-core/assets/css/appart-responsive.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-post-3189-css" href="https://teraiota.com/wp-content/uploads/elementor/css/post-3189.css" type="text/css" media="all"><link rel="stylesheet" id="google-fonts-2-css" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.2.5" type="text/css" media="all"><link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://teraiota.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://teraiota.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" type="text/css" media="all"><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/wow/wow.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/saasland-core/assets/js/appart-custom.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/saasland-core/assets/js/main.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/teraiota.com\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202003"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/js/propper.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/js/bootstrap.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/saasland-core/assets/vendors/sckroller/jquery.parallax-scroll.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/vendors/magnify-pop/jquery.magnific-popup.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/vendors/nice-select/jquery.nice-select.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/vendors/scroll/jquery.mCustomScrollbar.concat.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/themes/saasland/assets/js/custom-wp.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+
+        ;(function($){
+            $(document).ready(function () {
+                $( '.footer-widget .f_widget' ).removeClass( 'pl_70' ); 
+
+            });
+        })(jQuery);
+</script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/saasland-core/assets/js/ajax-chimp.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://c0.wp.com/c/5.2.5/wp-includes/js/jquery/ui/position.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.7.4","urls":{"assets":"https:\/\/teraiota.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":3189,"title":"Footer Dark 01","excerpt":"\t\t\t\t\t\t"}};
+</script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://teraiota.com/wp-content/plugins/elementor/assets/js/frontend.min.js"></script><script type="d3a4c8b62b3499da352fb31b-text/javascript" src="https://stats.wp.com/e-202003.js" async="async" defer></script><script type="d3a4c8b62b3499da352fb31b-text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.8.1',blog:'167791378',post:'3550',tz:'13',srv:'teraiota.com'} ]);
+	_stq.push([ 'clickTrackerInit', '167791378', '3550' ]);
+</script><div id="cookie-notice" role="banner" class="cn-top bootstrap" style="color: #fff; background-color: #000;"><div class="cookie-notice-container"><span id="cn-notice-text">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you agree to accept cookies.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button bootstrap button">Ok</a>
+</div>
+</div><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="d3a4c8b62b3499da352fb31b-|49" defer></script></body></html>
